@@ -1,89 +1,43 @@
 {
-  "name": "@titicaca/eslint-config-triple",
-  "version": "3.1.0",
-  "description": "Triple's ESLint config, following our styleguide",
-  "main": "index.js",
-  "files": [
-    "rules",
-    "index.js",
-    "prettierrc.js",
-    "stylelint.js",
-    "create-config.js",
-    "frontend.js"
-  ],
-  "scripts": {
-    "lint:es": "eslint '**/*.js'",
-    "lint:es:fix": "npm run lint:es -- --fix",
-    "prettier": "prettier '**/*.{json,yaml,md}' --check",
-    "prettier:fix": "prettier '**/*.{json,yaml,md}' --write",
-    "lint": "npm run lint:es; npm run prettier",
-    "lint:fix": "npm run lint:es:fix; npm run prettier:fix",
-    "update-snapshot": "jest -u",
-    "test:watch": "jest --watch",
-    "test": "jest",
-    "prepare": "[ $CI ] || husky install"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/titicacadev/eslint-config-triple.git"
-  },
-  "keywords": [
-    "eslint",
-    "eslintconfig",
-    "config",
-    "triple",
-    "javascript",
-    "typescript",
-    "styleguide",
-    "es2015",
-    "es2016",
-    "es2017",
-    "es2018"
-  ],
-  "author": "Triple Corp",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/titicacadev/eslint-config-triple/issues"
-  },
-  "homepage": "https://github.com/titicacadev/eslint-config-triple",
-  "engines": {
-    "node": ">= 6"
-  },
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "@babel/eslint-parser": "7.15.8",
-    "@stylelint/postcss-css-in-js": "0.37.2",
-    "@typescript-eslint/eslint-plugin": "5.6.0",
-    "@typescript-eslint/parser": "5.6.0",
-    "eslint": "7.32.0",
-    "eslint-config-prettier": "8.3.0",
-    "eslint-config-standard": "16.0.3",
-    "eslint-config-standard-jsx": "10.0.0",
-    "eslint-import-resolver-typescript": "2.5.0",
-    "eslint-plugin-import": "2.25.2",
-    "eslint-plugin-jsx-a11y": "6.4.1",
-    "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-promise": "5.1.0",
-    "eslint-plugin-react": "7.26.1",
-    "eslint-plugin-react-hooks": "4.2.0",
-    "postcss-syntax": "0.36.2",
-    "prettier": "2.4.1",
-    "stylelint": "14.1.0",
-    "stylelint-config-prettier": "9.0.3",
-    "stylelint-config-standard": "23.0.0",
-    "stylelint-config-styled-components": "0.1.1"
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.11.41",
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.7.4",
+    "web-vitals": "^2.1.4"
   },
-  "devDependencies": {
-    "husky": "^7.0.2",
-    "jest": "^27.3.1",
-    "lint-staged": "^11.2.3",
-    "typescript": "^4.4.4"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "lint-staged": {
-    "**/*.{js,ts,tsx}": [
-      "eslint"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
     ],
-    "**/*.{json,yaml,md}": [
-      "prettier --check"
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
     ]
   }
 }
