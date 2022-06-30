@@ -24,6 +24,7 @@ module.exports = {
     {
       files: ['*.ts', '*.tsx'],
       rules: {
+        // eslint-disable-next-line @typescript-eslint/naming-convention
         '@typescript-eslint/naming-convention': createNamingConventionConfig({
           options: addReactComponentNamingConvention(
             createNamingConventionOptions(),

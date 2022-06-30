@@ -1,3 +1,6 @@
+/* eslint-disable global-require */
+/* eslint-disable no-nested-ternary */
+/* eslint-disable @typescript-eslint/no-use-before-define */
 const { readdirSync } = require('fs')
 
 const {

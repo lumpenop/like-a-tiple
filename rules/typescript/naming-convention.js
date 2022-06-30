@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-use-before-define */
 module.exports = {
   createNamingConventionConfig,
   createNamingConventionOptions: createOptions,
@@ -12,6 +13,7 @@ function createNamingConventionConfig({
 
   const commonProps = { filter }
 
+  // eslint-disable-next-line @typescript-eslint/no-shadow
   const addCommonProps = (options) =>
     options.map((option) => ({ ...option, ...commonProps }))
 
