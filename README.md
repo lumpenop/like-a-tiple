@@ -10,7 +10,8 @@
 ## 기술 스택
   <img src="https://img.shields.io/badge/TypeScript-v4.7.4-blue"/>
   <img src="https://img.shields.io/badge/React-v18.2.0-blue"/>
-  <img src="https://img.shields.io/badge/styled-components-v5.3.5-blue"/>
+  <img src="https://img.shields.io/badge/styled-v5.3.5-blue"/>
+  
 
 
 ### 기술 선택 이유
