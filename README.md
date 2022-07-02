@@ -8,9 +8,9 @@
 ### [배포 사이트](https://like-a-tiple.vercel.app/)
 
 ## 기술 스택
-  <img src="https://img.shields.io/badge/TypeScript-v4.7.4?logoColor=#3178C6"/>
-  <img src="https://img.shields.io/badge/React-v18.2.0?logoColor=#61DAFB"/>
-  <img src="https://img.shields.io/badge/'styled-components'-v5.3.5?logoColor=#DB7093"/>
+  <img src="https://img.shields.io/badge/TypeScript-v4.7.4-blue"/>
+  <img src="https://img.shields.io/badge/React-v18.2.0-blue"/>
+  <img src="https://img.shields.io/badge/'styled-components'-v5.3.5-blue"/>
   
 
 
