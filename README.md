@@ -10,7 +10,7 @@
 ## 기술 스택
   <img src="https://img.shields.io/badge/TypeScript-v4.7.4-blue"/>
   <img src="https://img.shields.io/badge/React-v18.2.0-blue"/>
-  <img src="https://img.shields.io/badge/Styled-components-v5.3.5-pink"/>
+  <img src="https://img.shields.io/badge/styled-components-v5.3.5-#DB7093"/>
 
 ### 기술 선택 이유
 - Typescript: 정적 타입을 제공하여, 조금 더 결과에 대한 예측이 쉽고 때문에 사이드 이펙트를 줄일 수 있습니다. 협업하기 좋은 코드에 조금 더 가까워질 수 있을 것 같습니다.
